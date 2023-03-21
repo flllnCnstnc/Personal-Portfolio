@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Portfolio: Constance Fluellen</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/js/index.js">
@@ -13,27 +12,38 @@
     <header>
         <h1>Constance Fluellen</h1>
         <img src="./assets/images/black-girl.jpg" alt="placeholderME" width="460" height="345">
-        <h3>About Me</h3>
-        <h3>My Work</h3>
+        <!--Below uses the <a> href atribute to specify the links destination -->
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+            <!--Later link to resume-->
+            <a href="#">Resume</a>
+        </nav>    
     </header>
 
     <main>
-        <h2>About Me</h2>
-          <p>This is about me I like animals, food and coding.</p>
-          <p>I am currently in school for computer science and look forward to learning to create more.</p>
-        <h2>My Work</h2>
+        <!--The id's attached to the section confirm the location for the linked href-->
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+                <p>This is about me I like animals, food and coding.</p>
+                <p>I am currently in school for computer science and look forward to learning to create more.</p>
+            </div>
+        </section>
+
+        <section id="work">
+            <h2>My Work</h2>
+            <div>
+                <p>Imagine work here</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+        </section>
+        
     </main>
 
-    <footer>
-        <p>©Constance Fluellen</p>
-        <p>
-            <nav>
-                <a href="https://www.google.com/">LinkedIn</a>
-                <a href="https://www.google.com/">GitHub</a>
-                <a href="https://www.google.com/">Indeed</a>
-                <a href="https://www.google.com/">Cofluellen@gmail.com</a>
-            </nav>
-        </p>
-    </footer>
 </body>
 </html>
