@@ -1,5 +1,6 @@
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-  }
+/* '*' selects all elements */
+* {
+  box-sizing: border-box; /*includes padding and boarder in elements overall width and height*/
+  margin: 0;
+  padding: 0;
+}
