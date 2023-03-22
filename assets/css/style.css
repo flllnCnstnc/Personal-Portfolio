@@ -4,3 +4,12 @@
   margin: 0;
   padding: 0;
 }
+
+/*Pages color palette*/
+:root { /*Below are custom properties that can be used in other locations with the var function*/
+  --primary:#67AAF9;
+  --secondary:#EED2CC;
+  --tertiary:#723D46;
+  --dark:#472D30;
+  --light: #FBF7F4;
+}
