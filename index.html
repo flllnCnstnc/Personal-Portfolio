@@ -9,34 +9,35 @@
     <link rel="stylesheet" href="./assets/js/index.js">
 </head>
 <body>
-    <header>
-        <h1>Constance Fluellen</h1>
+    </header>
         <!--Below uses the <a> href atribute to specify the links destination -->
         <nav>
             <a href="#about">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact">Contact Me</a>
-            <!--Later link to resume-->
+            <!--Later link to linkedin resume-->
             <a href="#">Resume</a>
-        </nav>    
+        </nav>   
+         <h1>Constance Fluellen</h1>
     </header>
 
     <section>
         <div>
-            <img src="./assets/images/black-girl.jpg" alt="Image of me" width="460" height="345">
-            <h2> Welcome to my portfolio</h2>
+            <img src="./assets/images/professional-me.jpg" alt="Image of me smiling at camera" >
+            <img src="./assets/images/free-me.jpg" alt="Image of me with in front of a mural depicting wings with the cation 'skys the limit'" >
+            <h1> Welcome to my portfolio</h1>
         </div>
     </section>
 
     <main>
         <!--The id's attached to the section confirm the location for the linked href-->
-        <section id="about">
+        <section>
             <h2>About Me</h2>
-            <div>
+            <div class="p">
                 <p> Nice to meet you! I am Constance, a college student who is pursuing a degree in computer
                     science with a focus on web development. I have always been passionate about technology
-                    and have spent much of my free time learning programming languages likeHTML, CSS, and
-                    JavaScript.I have already built several applications.
+                    and have spent much of my free time learning programming languages like HTML, CSS, and
+                    JavaScript. I have already built several applications.
                 </p>
                 <p> As a new web developer in college, I am eager to learn as much as I can and put my skills
                     to use. I am constantly exploring new technologies and experimenting with different
@@ -46,24 +47,25 @@
             </div>
         </section>
 
-        <section id="work">
+            
+        <section>
             <h2>My Work</h2>
-            <div>
+            <div id="work">
                 <!--Background image will be placed using css-->
-                <a href="#">
-                    <div>
-                        <h3>Task/Appointment Scheduler</h3>
+                <a href="#"> <!--# is a place holder-->
+                    <div class="left">
+                        <h3>Appointment Scheduler</h3>
                         <span>programs used</span>
                     </div>
                 </a>
                 <a href="https://flllncnstnc.github.io/SecurePasswordGenerator/">
-                    <div>
+                    <div class="middle">
                         <h3>Password Generator</h3>
                         <span>HTML/CSS/JavaScript</span>
                     </div>
                 </a>
                 <a href="#">
-                    <div>
+                    <div class="right">
                         <h3>Javascript Quiz</h3>
                         <span>programs used</span>
                     </div>
@@ -71,11 +73,14 @@
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <a href="mailto:cofluellen@gmail.com">cofluellen@gmail.com</a>
-            <a href="https://github.com/flllnCnstnc">Github</a>
-            <a href="https://www.linkedin.com/in/constance-f-b067ba205?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFqEI7dBkTJKYWGeOpenM7A%3D%3D">Linkedin</a>
+        
+        <section >
+           <h2>Contact Me Here</h2> 
+            <div id="contact">
+                <a href="mailto:cofluellen@gmail.com">cofluellen@gmail.com</a>
+                <a href="https://github.com/flllnCnstnc">Github</a>
+                <a href="https://www.linkedin.com/in/constance-f-b067ba205?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFqEI7dBkTJKYWGeOpenM7A%3D%3D">Linkedin.com</a>
+            </div>
         </section>
         
     </main>
