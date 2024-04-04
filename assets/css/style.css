@@ -22,13 +22,21 @@ nav {
 }
 
 body {
-  background-color: var(--tertiary);
+  background-color: var(--dark);
 }
 
 h1,h2{
   display: flex;
   justify-content: center;
   padding-top: 15px;
+  color: var(--light);
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  color: var(--dark);
 }
 
 img {
@@ -63,7 +71,7 @@ p {
   justify-content: center; /*only use center*/
   text-align: center;
   margin: 50px;
-  background-color: var(--dark);
+  background-color: var(--tertiary);
 }
     
 .left, .middle, .right {
