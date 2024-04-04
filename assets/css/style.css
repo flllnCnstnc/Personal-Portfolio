@@ -99,9 +99,55 @@ p {
   margin: 0 250px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .contact {
 background-color: var(--tertiary);
+}
+
+@media screen and (max-width: 503px) {
+
+  h1{
+    padding-left: 22px;
+    
+  }
+
+  img {
+    
+    width: 290px;
+    height: 200px;
+    padding: 5px;
+    
+  }
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+    padding-left: 10px;
+  }
+
+  .left, .middle, .right {
+    
+    margin: 25px;
+    height: 150px;
+    width: 200px;
+  }
+
+  #contact {
+    padding: 5px 7px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
